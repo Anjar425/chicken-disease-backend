@@ -1,3 +1,3 @@
 [build]
-  functions = "netlify/functions"
-  publish = "public"
+  functions = "netlify/functions"  # Point to your serverless function directory
+  publish = "."  # Set publish to the root directory, which is fine if you don't need static files
